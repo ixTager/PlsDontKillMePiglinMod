@@ -5,6 +5,7 @@
 	"mixins": [
 		"ExampleMixin",
         "PiglinBruteAttackMixin",
+        "PiglinBeastAttackMixin",
         "PlayerInventoryAccessor",
         "InventoryItemInvoker"
 	],
