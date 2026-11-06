@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "dev.ixtager.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+        "PiglinBruteAttackMixin",
+        "PlayerInventoryAccessor",
+        "InventoryItemInvoker"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
